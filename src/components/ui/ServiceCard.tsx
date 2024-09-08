@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import { Button } from "./button";
 
 function ServiceCard({
@@ -7,7 +8,7 @@ function ServiceCard({
 }: {
   title: string;
   description: string;
-  icon: any;
+  icon: ReactNode;
 }) {
   return (
     <div className="w-full min-h-[260px] lg:min-h-[400px] bg-white flex flex-col items-center p-[16px] px-[8px] lg:p-[28px] rounded-[10px] justify-between">
