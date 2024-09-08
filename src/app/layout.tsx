@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import ProductSchema from "@/components/scripts/ProductSchema";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -12,7 +13,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "PixelGo | One Stop Digital Solutions For All Your Business needs.",
   description:
-    "Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment",
+    "Boost Your Brand with SEO, Web Dev, Lead Gen & Content Creation  Helping You Grow Online | Let’s Make Your Business Thrive",
 };
 
 export default function RootLayout({
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable}`}>
+        <ProductSchema />
         <Navbar />
         {children}
       </body>
