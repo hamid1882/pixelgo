@@ -7,7 +7,7 @@ function Explore() {
   return (
     <div className="container mx-auto px-[20px] lg:px-0 py-[20px] lg:py-[36px]">
       <div className="flex items-center w-full">
-        <div>
+        <div className="w-full">
           <h2 className="text-[23px] font-medium">
             Targeted Lead Generation Strategies
           </h2>
