@@ -7,7 +7,7 @@ function Explore() {
   return (
     <div className="container mx-auto px-[20px] lg:px-0 py-[20px] lg:py-[36px]">
       <div className="flex items-center w-full">
-        <div className="w-full">
+        <div className="w-full text-left lg:text-center">
           <h2 className="text-[23px] font-medium">
             Targeted Lead Generation Strategies
           </h2>
@@ -21,15 +21,15 @@ function Explore() {
             alt="Targeted Lead Generation Strategies"
             width={500}
             height={500}
-            className="w-full h-[200px] lg:h-[300px] object-contain"
+            className="w-full h-[160px] lg:h-[250px] object-contain"
           />
         </div>
       </div>
-      <div className="w-full flex justify-center mt-[46px] lg:mt-[56px]">
+      <div className="w-full flex justify-center mt-[46px] lg:mt-[40px]">
         <Button
           variant="outline"
           size="lg"
-          className="bg-transparent border-pixelgo-brand hover:bg-pixelgo-brand rounded-full lg:w-[200px] lg:h-[50px]"
+          className="bg-transparent border-pixelgo-brand hover:bg-pixelgo-brand rounded-full lg:w-[240px] lg:h-[50px]"
         >
           Explore
         </Button>
