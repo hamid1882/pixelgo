@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Logo from "../../public/static/images/logos/logo.webp";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const NavLinks = [
   {
@@ -10,19 +11,19 @@ const NavLinks = [
   },
   {
     label: "About Us",
-    url: "/about-us",
+    url: "about-us",
   },
   {
     label: "Contact Us",
-    url: "/contact-us",
+    url: "contact-us",
   },
   {
     label: "Blogs",
-    url: "/blogs",
+    url: "blogs",
   },
   {
     label: "Services",
-    url: "/services",
+    url: "services",
   },
 ];
 
@@ -38,12 +39,11 @@ function NavbarDesktop() {
       />
       <div className="flex items-center gap-[28px]">
         {NavLinks.map((link) => (
-          <p
-            className="text-[20px] font-semibold cursor-pointer hover:bg-pixelgo-brand transition-all px-[8px] py-[4px] rounded"
-            key={link.label}
-          >
-            {link.label}
-          </p>
+          <Link key={link.label} href={`#${link.url}`}>
+            <p className="text-[20px] font-semibold cursor-pointer hover:bg-pixelgo-brand transition-all px-[8px] py-[4px] rounded">
+              {link.label}
+            </p>
+          </Link>
         ))}
       </div>
       <div>

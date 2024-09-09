@@ -2,7 +2,10 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div className="container mx-auto px-[20px] sm:px-0 space-y-[22px] lg:space-y-[32px] py-[28px]">
+    <div
+      id="about-us"
+      className="container mx-auto px-[20px] sm:px-0 space-y-[22px] lg:space-y-[32px] py-[28px]"
+    >
       <h2 className="text-center font-semibold text-pixelgo-brand text-[23px] lg:text-[28px]">
         About Us
       </h2>
@@ -23,9 +26,9 @@ function AboutUs() {
         your audience across platforms like Facebook, Instagram, and WhatsApp.
         <br />
         <br />
-        Whether you're a local startup or an established business, we’re here to
-        drive your growth, increase your visibility, and help you make a lasting
-        impact in the Indian market.
+        Whether you&apos;re a local startup or an established business,
+        we&apos;re here to drive your growth, increase your visibility, and help
+        you make a lasting impact in the Indian market.
       </p>
     </div>
   );
