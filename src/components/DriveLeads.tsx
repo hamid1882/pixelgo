@@ -1,7 +1,4 @@
-import React from "react";
 import { Button } from "./ui/button";
-import DriveLeadsImg from "../../public/static/images/drive-leads.webp";
-import Image from "next/image";
 
 function DriveLeads() {
   return (
@@ -27,14 +24,14 @@ function DriveLeads() {
           </Button>
         </div>
       </div>
-      <div className="w-full flex justify-center">
+      {/* <div className="w-full flex justify-center">
         <Image
           src={DriveLeadsImg}
           alt="Drive Leads, Build Growth, Create Impact"
           width={500}
           height={500}
         />
-      </div>
+      </div> */}
     </div>
   );
 }
