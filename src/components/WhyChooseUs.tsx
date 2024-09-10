@@ -10,25 +10,25 @@ import { Star } from "lucide-react";
 const WhyChooseUsData = [
   {
     icon: (
-      <LockOpen1Icon className="text-white w-[20px] lg:w-[40px] h-[20px] lg:h-[40px]" />
+      <LockOpen1Icon className="text-black w-[20px] lg:w-[40px] h-[20px] lg:h-[40px]" />
     ),
     details: "Solutions Tailored Specifically to Your Business Needs",
   },
   {
     icon: (
-      <Star className="text-white w-[20px] lg:w-[40px] h-[20px] lg:h-[40px]" />
+      <Star className="text-black w-[20px] lg:w-[40px] h-[20px] lg:h-[40px]" />
     ),
     details: "Creative Excellence Elevates Every project",
   },
   {
     icon: (
-      <PersonIcon className="text-white w-[20px] lg:w-[40px] h-[20px] lg:h-[40px]" />
+      <PersonIcon className="text-black w-[20px] lg:w-[40px] h-[20px] lg:h-[40px]" />
     ),
     details: "Client Satisfaction Is Our Main Focus",
   },
   {
     icon: (
-      <DoubleArrowUpIcon className="text-white w-[20px] lg:w-[40px] h-[20px] lg:h-[40px]" />
+      <DoubleArrowUpIcon className="text-black w-[20px] lg:w-[40px] h-[20px] lg:h-[40px]" />
     ),
     details: "Elevate Your Brand, One Pixel at a Time",
   },

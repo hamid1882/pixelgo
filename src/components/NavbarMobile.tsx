@@ -11,7 +11,7 @@ function NavbarMobile() {
         alt="PixelGo-Logo"
         height={150}
         width={150}
-        className="w-fit lg:w-[250px] h-[50px] lg:h-[100px] object-contain"
+        className="w-fit lg:w-[250px] h-[50px] lg:h-[100px] object-contain pb-[8px]"
       />
       <HamburgerMenuIcon className="w-[30px] h-[20px] font-bold cursor-pointer" />
     </div>

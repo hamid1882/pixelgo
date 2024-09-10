@@ -4,6 +4,9 @@
 body {
   background-color: #ffc7a8;
   font-family: var(--font-poppins);
+}
+
+* {
   scroll-behavior: smooth;
 }
 

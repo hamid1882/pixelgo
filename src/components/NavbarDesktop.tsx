@@ -7,7 +7,11 @@ import Link from "next/link";
 const NavLinks = [
   {
     label: "Home",
-    url: "/",
+    url: "top",
+  },
+  {
+    label: "Services",
+    url: "services",
   },
   {
     label: "About Us",
@@ -17,14 +21,10 @@ const NavLinks = [
     label: "Contact Us",
     url: "contact-us",
   },
-  {
-    label: "Blogs",
-    url: "blogs",
-  },
-  {
-    label: "Services",
-    url: "services",
-  },
+  // {
+  //   label: "Blogs",
+  //   url: "blogs",
+  // },
 ];
 
 function NavbarDesktop() {
@@ -35,7 +35,7 @@ function NavbarDesktop() {
         alt="PixelGo-Logo"
         height={300}
         width={300}
-        className="w-fit lg:h-[80px] object-contain"
+        className="w-fit lg:h-[80px] object-contain pb-[8px]"
       />
       <div className="flex items-center gap-[28px]">
         {NavLinks.map((link) => (
@@ -46,14 +46,14 @@ function NavbarDesktop() {
           </Link>
         ))}
       </div>
-      <div>
+      <Link href="#contact-us">
         <Button
           size="lg"
           className="bg-pixelgo-brand hover:bg-pixelgo-brand/80"
         >
           Contact Us
         </Button>
-      </div>
+      </Link>
     </div>
   );
 }

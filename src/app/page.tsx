@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import ContactUs from "@/components/ContactUs";
 import DriveLeads from "@/components/DriveLeads";
 import Explore from "@/components/Explore";
 import Hero from "@/components/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <Success />
       <WhyChooseUs />
       <AboutUs />
+      <ContactUs />
     </div>
   );
 }
