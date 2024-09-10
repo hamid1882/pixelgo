@@ -59,7 +59,6 @@ export default function ContactUsForm() {
         <FormField
           control={form.control}
           name="fullName"
-          // @ts-expect-error I don't know what field is holding
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-white">Full Name</FormLabel>
@@ -77,7 +76,6 @@ export default function ContactUsForm() {
         <FormField
           control={form.control}
           name="mobileNumber"
-          // @ts-expect-error I don't know what field is holding
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-white">Mobile Number</FormLabel>
@@ -95,7 +93,6 @@ export default function ContactUsForm() {
         <FormField
           control={form.control}
           name="email"
-          // @ts-expect-error I don't know what field is holding
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-white">Email Address</FormLabel>
