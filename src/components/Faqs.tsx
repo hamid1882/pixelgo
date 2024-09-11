@@ -88,7 +88,9 @@ function Faqs() {
               className="border-b border-gray-900/10"
               value={faq.question}
             >
-              <AccordionTrigger>{faq.question}</AccordionTrigger>
+              <AccordionTrigger className="text-left">
+                {faq.question}
+              </AccordionTrigger>
               <AccordionContent>{faq.answer}</AccordionContent>
             </AccordionItem>
           ))}
