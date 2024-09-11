@@ -10,7 +10,6 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { useToast } from "@/hooks/use-toast";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -31,8 +30,6 @@ const FormSchema = z.object({
 });
 
 export default function ContactUsForm() {
-  const { toast } = useToast();
-
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -41,14 +38,6 @@ export default function ContactUsForm() {
       Email: "",
     },
   });
-
-  function onSubmit() {
-    toast({
-      title: "Form has been Submitted!",
-      description: <p>We will connect with you shortly.</p>,
-    });
-    form.reset();
-  }
 
   return (
     <Form {...form}>
