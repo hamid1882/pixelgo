@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 function DriveLeads() {
@@ -16,12 +17,14 @@ function DriveLeads() {
           </p>
         </div>
         <div className="w-full flex justify-center lg:justify-start mt-[46px] lg:mt-[40px]">
-          <Button
-            size="lg"
-            className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 h-[46px]"
-          >
-            Contact Us
-          </Button>
+          <Link href="#contact-us">
+            <Button
+              size="lg"
+              className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 h-[46px]"
+            >
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </div>
       {/* <div className="w-full flex justify-center">

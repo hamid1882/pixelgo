@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Button } from "./button";
+import Link from "next/link";
 
 function ServiceCard({
   title,
@@ -19,12 +20,16 @@ function ServiceCard({
           {description}
         </p>
       </div>
-      <Button
-        size="lg"
-        className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 max-w-full"
-      >
-        Enquire Now
-      </Button>
+      <div>
+        <Link href="#contact-us">
+          <Button
+            size="lg"
+            className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 max-w-full text-black"
+          >
+            Enquire Now
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 }

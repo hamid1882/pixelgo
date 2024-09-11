@@ -13,9 +13,9 @@ const ContactData = [
   },
   {
     title: "Phone Number",
-    label: "+91 786786760",
-    value: "+91786786760",
-    link: "tel:+91786786760",
+    label: "+91 90080 08772",
+    value: "+919008008772",
+    link: "tel:+919008008772",
   },
   {
     title: "Email Address",

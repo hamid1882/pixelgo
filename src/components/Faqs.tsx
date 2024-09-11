@@ -75,8 +75,9 @@ function Faqs() {
     <>
       <SeoFaqSchema data={FaqsData} />
       <div className="container mx-auto px-[20px] lg:px-0 py-[22px] lg:py-[32px]">
-        <h2 className="text-[23px] text-pixelgo-brand text-center">
-          Frequently Asked <span className="text-pixelgo-brand">Questions</span>
+        <h2 className="text-[23px] text-pixelgo-primary-dark text-center">
+          Frequently Asked{" "}
+          <span className="text-pixelgo-primary-dark">Questions</span>
         </h2>
         <Accordion
           className="my-[20px] lg:my-[32px] lg:max-w-[60%] mx-auto"

@@ -109,7 +109,7 @@ export default function ContactUsForm() {
           <Button
             type="submit"
             size="lg"
-            className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 my-[18px] w-full rounded-[10px]"
+            className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 my-[18px] w-full rounded-[10px] text-black"
           >
             Get Free Consultation
           </Button>

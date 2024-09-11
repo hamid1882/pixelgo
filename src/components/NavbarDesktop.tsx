@@ -51,7 +51,7 @@ function NavbarDesktop() {
       <Link href="#contact-us">
         <Button
           size="lg"
-          className="bg-pixelgo-brand hover:bg-pixelgo-brand/80"
+          className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 text-black"
         >
           Contact Us
         </Button>

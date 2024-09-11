@@ -1,6 +1,5 @@
 import AboutUs from "@/components/AboutUs";
 import ContactUs from "@/components/ContactUs";
-import DriveLeads from "@/components/DriveLeads";
 import Explore from "@/components/Explore";
 import Faqs from "@/components/Faqs";
 import Footer from "@/components/Footer";
@@ -15,7 +14,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Explore />
-      <DriveLeads />
+      {/* <DriveLeads /> */}
       <Success />
       <WhyChooseUs />
       <AboutUs />

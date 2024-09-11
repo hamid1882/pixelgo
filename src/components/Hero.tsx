@@ -4,6 +4,7 @@ import Image from "next/image";
 import HeroIdeaSvg from "./svg/HeroIdeaSvg";
 import HeroArrowSvg from "./svg/HeroArrowSvg";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -36,12 +37,16 @@ function Hero() {
           Boost Your Brand with SEO, Web Dev, Lead Gen & Content Creation
           Helping You Grow Online | Let’s Make Your Business Thrive
         </p>
-        <Button
-          size="lg"
-          className="bg-pixelgo-brand hover:bg-pixelgo-brand/80"
-        >
-          Contact Us
-        </Button>
+        <div>
+          <Link href="#contact-us">
+            <Button
+              size="lg"
+              className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 text-black"
+            >
+              Contact Us
+            </Button>
+          </Link>
+        </div>
       </div>
     </div>
   );

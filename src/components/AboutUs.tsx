@@ -6,7 +6,7 @@ function AboutUs() {
       id="about-us"
       className="container mx-auto px-[20px] sm:px-0 space-y-[22px] lg:space-y-[32px] py-[28px]"
     >
-      <h2 className="text-center font-semibold text-pixelgo-brand text-[23px] lg:text-[28px]">
+      <h2 className="text-center font-semibold text-pixelgo-primary-dark text-[23px] lg:text-[28px]">
         About Us
       </h2>
       <p className="text-[12px] lg:text-[24px] font-medium">

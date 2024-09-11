@@ -2,6 +2,7 @@ import React from "react";
 import ExploreImg from "../../public/static/images/explore.webp";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 function Explore() {
   return (
@@ -26,13 +27,15 @@ function Explore() {
         </div>
       </div>
       <div className="w-full flex justify-center mt-[46px] lg:mt-[40px]">
-        <Button
-          variant="outline"
-          size="lg"
-          className="bg-transparent border-pixelgo-brand hover:bg-pixelgo-brand rounded-full lg:w-[240px] lg:h-[50px]"
-        >
-          Explore
-        </Button>
+        <Link href="#contact-us">
+          <Button
+            variant="outline"
+            size="lg"
+            className="bg-transparent border-pixelgo-brand hover:bg-pixelgo-brand rounded-full lg:w-[240px] lg:h-[50px]"
+          >
+            Explore
+          </Button>
+        </Link>
       </div>
     </div>
   );
