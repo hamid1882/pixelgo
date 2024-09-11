@@ -60,7 +60,7 @@ function Footer() {
             alt="Pixelgo-logo"
             height={500}
             width={500}
-            className="w-[150px] lg:w-[350px] h-[100px] lg:h-[150px] object-contain pb-[8px]"
+            className="w-[150px] lg:w-[250px] h-[100px] lg:h-[100px] object-contain pb-[8px]"
           />
           <div className="flex justify-center items-center gap-[20px] sm:gap-[28px] lg:gap-[34px]  my-[20px]">
             {SocialMediaLinks.map((link) => (
