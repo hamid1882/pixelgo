@@ -48,28 +48,28 @@ function NavbarMobile() {
         {isCollapseNavbar ? (
           <CrossCircledIcon
             onClick={() => setIsCollapseNavbar(!isCollapseNavbar)}
-            className="w-[36px] h-[36px] font-bold cursor-pointer"
+            className="w-[28px] h-[28px] font-bold cursor-pointer"
           />
         ) : (
           <HamburgerMenuIcon
             onClick={() => setIsCollapseNavbar(!isCollapseNavbar)}
-            className="w-[36px] h-[36px] font-bold cursor-pointer"
+            className="w-[28px] h-[28px] font-bold cursor-pointer"
           />
         )}
       </div>
       <div
         className={`${
-          isCollapseNavbar ? "min-h-fit mt-[14px]" : "min-h-0 h-0"
+          isCollapseNavbar ? "min-h-fit mt-[6px]" : "min-h-0 h-0"
         } w-full bg-pixelgo-primary  transition-all`}
       >
         <div
           className={`${
             isCollapseNavbar ? "flex" : "hidden"
-          } transition-all items-center gap-[28px] py-[8px] justify-center`}
+          } transition-all items-center gap-[20px] py-[6px] justify-center`}
         >
           {NavLinks.map((link) => (
             <Link key={link.label} href={`#${link.url}`}>
-              <p className="text-[20px] font-semibold cursor-pointer hover:bg-pixelgo-brand transition-all px-[8px] py-[12px] rounded">
+              <p className="text-[10px] font-semibold cursor-pointer hover:bg-pixelgo-brand transition-all px-[4px] py-[8px] rounded">
                 {link.label}
               </p>
             </Link>
