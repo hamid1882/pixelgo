@@ -5,9 +5,11 @@ import Link from "next/link";
 const ContactData = [
   {
     title: "Our Location",
-    label: "Near 155/5th Cross, Rashad nagar, Govindapura",
-    value: "Near 155/5th Cross, Rashad nagar, Govindapura",
-    link: "/",
+    label:
+      "41,4th Cross Road,Rashad Nagar, Govindapura, Hbr Layout, Bengaluru 560045.",
+    value:
+      "41,4th Cross Road,Rashad Nagar, Govindapura, Hbr Layout, Bengaluru 560045.",
+    link: "#contact-us",
   },
   {
     title: "Phone Number",
@@ -17,9 +19,9 @@ const ContactData = [
   },
   {
     title: "Email Address",
-    label: "pixelgoindia@gmail.com",
-    value: "pixelgoindia@gmail.com",
-    link: "mailto:pixelgoindia@gmail.com",
+    label: "contact@pixelgo.in",
+    value: "contact@pixelgo.in",
+    link: "mailto:contact@pixelgo.in",
   },
 ];
 
@@ -30,9 +32,9 @@ function ContactUs() {
       id="contact-us"
     >
       <div className="container mx-auto">
-        <h1 className="text-[23px] text-pixelgo-brand text-center">
+        <h2 className="text-[23px] text-pixelgo-brand text-center">
           Connect With Us
-        </h1>
+        </h2>
         <div className="flex flex-col-reverse lg:flex-row my-[22px] gap-[26px] items-center justify-center">
           <div className="text-white space-y-[24px] lg:space-y-[28px] my-[36px] lg:my-[42px] w-full">
             {ContactData.map((details) => (

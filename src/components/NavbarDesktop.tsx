@@ -30,13 +30,15 @@ const NavLinks = [
 function NavbarDesktop() {
   return (
     <div className="hidden lg:flex items-center justify-between">
-      <Image
-        src={Logo}
-        alt="PixelGo-Logo"
-        height={300}
-        width={300}
-        className="w-fit lg:h-[80px] object-contain pb-[8px]"
-      />
+      <Link href="/">
+        <Image
+          src={Logo}
+          alt="PixelGo-Logo"
+          height={300}
+          width={300}
+          className="w-fit lg:h-[80px] object-contain pb-[8px]"
+        />
+      </Link>
       <div className="flex items-center gap-[28px]">
         {NavLinks.map((link) => (
           <Link key={link.label} href={`#${link.url}`}>

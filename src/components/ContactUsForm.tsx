@@ -16,10 +16,10 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 
 const FormSchema = z.object({
-  fullName: z.string().min(2, {
+  Name_First: z.string().min(2, {
     message: "Fullname must be at least 2 characters.",
   }),
-  mobileNumber: z
+  PhoneNumber_countrycode: z
     .string()
     .min(10, {
       message: "Invalid mobile number, Min: 10",
@@ -27,7 +27,7 @@ const FormSchema = z.object({
     .regex(/^\+?[1-9]\d{1,14}$/, {
       message: "Invalid mobile number format.",
     }),
-  email: z.string().email(),
+  Email: z.string().email(),
 });
 
 export default function ContactUsForm() {
@@ -36,9 +36,9 @@ export default function ContactUsForm() {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
-      fullName: "",
-      mobileNumber: "",
-      email: "",
+      Name_First: "",
+      PhoneNumber_countrycode: "",
+      Email: "",
     },
   });
 
@@ -53,12 +53,21 @@ export default function ContactUsForm() {
   return (
     <Form {...form}>
       <form
-        onSubmit={form.handleSubmit(onSubmit)}
+        action="https://forms.zohopublic.in/touheedbusinessgm1/form/ContactUs/formperma/bIy9hYSCOCq7NUI7c7eNgD5JQLgsXa-V6Se8OV4JJ98/htmlRecords/submit"
+        name="form"
+        id="form"
+        method="POST"
+        accept-charset="UTF-8"
         className="w-full sm:max-w-[50%] lg:max-w-[60%] mx-auto space-y-4 mt-[18px]"
       >
+        <input type="hidden" name="zf_referrer_name" value="" />
+        <input type="hidden" name="zf_redirect_url" value="" />
+        <input type="hidden" name="zc_gad" value="" />
+        <input type="hidden" name="Name_Last" placeholder="" value={" "} />
+        <input type="hidden" name="SingleLine" value=" " placeholder="" />
         <FormField
           control={form.control}
-          name="fullName"
+          name="Name_First"
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-white">Full Name</FormLabel>
@@ -75,7 +84,7 @@ export default function ContactUsForm() {
         />
         <FormField
           control={form.control}
-          name="mobileNumber"
+          name="PhoneNumber_countrycode"
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-white">Mobile Number</FormLabel>
@@ -92,7 +101,7 @@ export default function ContactUsForm() {
         />
         <FormField
           control={form.control}
-          name="email"
+          name="Email"
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-white">Email Address</FormLabel>
