@@ -1,24 +1,23 @@
-'use client';
+"use client";
 
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 function SeoFaqSchema({ data }) {
-
   useEffect(() => {
     if (data) {
-      const script = document.createElement('script');
-      script.type = 'application/ld+json';
+      const script = document.createElement("script");
+      script.type = "application/ld+json";
       script.innerHTML = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": data.map(faq => ({
+        mainEntity: data.map((faq) => ({
           "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
+          name: faq.question,
+          acceptedAnswer: {
             "@type": "Answer",
-            "text": `<p>${faq.answer}</p>`
-          }
-        }))
+            text: `${faq.answer}`,
+          },
+        })),
       });
       document.head.appendChild(script);
 
@@ -28,9 +27,7 @@ function SeoFaqSchema({ data }) {
       };
     }
   }, []);
-  return (
-    <></>
-  )
+  return <></>;
 }
 
 export default SeoFaqSchema;
