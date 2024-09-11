@@ -16,7 +16,7 @@ function ProductSchema() {
       url: "https://www.pixelgo.in",
       logo: "https://pixelgo.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.39121e90.webp&w=384&q=75",
       description:
-        "Boost Your Brand with SEO, Web Dev, Lead Gen & Content Creation  Helping You Grow Online | Let’s Make Your Business Thrive",
+        "Maximize ROI with targeted Google Ads services. We create optimized, relevant campaigns to boost visibility, drive quality traffic, and increase conversions.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "155/1, 5th cross, near new noble school",

@@ -34,8 +34,9 @@ function Hero() {
           One Stop Digital Solutions For All Your Business needs.
         </h1>
         <p className="text-[12px] lg:text-[22px] font-[500] leading-[17px] lg:leading-[28px]">
-          Boost Your Brand with SEO, Web Dev, Lead Gen & Content Creation
-          Helping You Grow Online | Let’s Make Your Business Thrive
+          Maximize ROI with targeted Google Ads services. We create optimized,
+          relevant campaigns to boost visibility, drive quality traffic, and
+          increase conversions.
         </p>
         <div>
           <Link href="#contact-us">
