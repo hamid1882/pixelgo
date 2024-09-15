@@ -25,6 +25,44 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta
+        property="og:title"
+        content="PixelGo | One Stop Digital Solutions For All Your Business needs."
+      />
+      <meta
+        property="og:description"
+        content="Maximize ROI with targeted Google Ads services. We create optimized, relevant campaigns to boost visibility, drive quality traffic, and increase conversions."
+      />
+      <meta
+        property="og:image"
+        content="https://res.cloudinary.com/dufbsunt4/image/upload/v1726417797/Pixelgo/q5an9h7gximfym4uhcqc.webp "
+      />
+      <meta
+        property="facebook:title"
+        content="PixelGo | One Stop Digital Solutions For All Your Business needs."
+      />
+      <meta
+        property="facebook:description"
+        content="Maximize ROI with targeted Google Ads services. We create optimized, relevant campaigns to boost visibility, drive quality traffic, and increase conversions."
+      />
+      <meta
+        property="facebook:image"
+        content="https://res.cloudinary.com/dufbsunt4/image/upload/v1726417797/Pixelgo/q5an9h7gximfym4uhcqc.webp "
+      />
+      <meta property="twitter:card" content="summary" />
+      <meta
+        property="twitter:title"
+        content="PixelGo | One Stop Digital Solutions For All Your Business needs."
+      />
+      <meta
+        property="twitter:description"
+        content="Maximize ROI with targeted Google Ads services. We create optimized, relevant campaigns to boost visibility, drive quality traffic, and increase conversions."
+      />
+      <meta
+        property="twitter:image"
+        content="https://res.cloudinary.com/dufbsunt4/image/upload/v1726417797/Pixelgo/q5an9h7gximfym4uhcqc.webp"
+      />
+      <link rel="alternate" href="https://pixelgo.in" hrefLang="en" />
       <body className={`${poppins.variable}`}>
         <main>
           <ProductSchema />
