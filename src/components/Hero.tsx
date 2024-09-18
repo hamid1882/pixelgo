@@ -10,7 +10,7 @@ function Hero() {
   return (
     <div
       id="top"
-      className="container mx-auto px-[20px] sm:px-0 flex flex-col lg:flex-row-reverse gap-[26px] lg:mt-[16px] py-[62px] lg:py-[45px]"
+      className="container mx-auto px-[20px] sm:px-0 flex flex-col lg:flex-row-reverse gap-[26px] lg:mt-[16px] py-[62px] lg:py-[65px]"
     >
       <div className="flex justify-center items-center relative mx-auto w-full">
         <div className="h-fit w-fit relative">

@@ -74,7 +74,7 @@ function Faqs() {
   return (
     <>
       <SeoFaqSchema data={FaqsData} />
-      <div className="container mx-auto px-[20px] lg:px-0 py-[22px] lg:py-[32px]">
+      <div className="container mx-auto px-[20px] lg:px-0 py-[28px] lg:py-[48px]">
         <h2 className="text-[23px] text-pixelgo-primary-dark text-center">
           Frequently Asked{" "}
           <span className="text-pixelgo-primary-dark">Questions</span>

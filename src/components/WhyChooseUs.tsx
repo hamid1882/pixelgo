@@ -36,7 +36,7 @@ const WhyChooseUsData = [
 
 function WhyChooseUs() {
   return (
-    <div className="my-[48px] lg:my-[68px] bg-black py-[28px] lg:py-[42px] px-[20px] lg:px-0">
+    <div className="my-[48px] lg:my-[68px] bg-black py-[28px] lg:py-[48px] px-[20px] lg:px-0">
       <div className="container mx-auto px-[20px] lg:px-0">
         <h1 className="text-[23px] text-pixelgo-text text-center">
           Why Choose Us?

@@ -48,7 +48,7 @@ const AllServices = [
 
 function Services() {
   return (
-    <div id="services" className="bg-black py-[20px]">
+    <div id="services" className="bg-black py-[20px] xl:py-[48px]">
       <div className="px-[20px] lg:px-0 container mx-auto">
         <div className="text-center space-y-[8px]">
           <p className="text-pixelgo-primary text-[14px] font-bold tracking-[6px]">

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Explore() {
   return (
-    <div className="container mx-auto px-[20px] lg:px-0 py-[20px] lg:py-[36px]">
+    <div className="container mx-auto px-[20px] lg:px-0 py-[20px] lg:py-[42px]">
       <div className="flex items-center w-full">
         <div className="w-full flex justify-center items-center">
           <Image

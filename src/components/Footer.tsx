@@ -1,7 +1,7 @@
 import { InstagramLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
-import PixelGoLogoDark from "../../public/static/images/logos/pixelgo-logo-dark-bg.webp";
+import PixelGoLogoDark from "../../public/static/images/logos/godoo-bg-light.webp";
 
 const SocialMediaLinks = [
   {

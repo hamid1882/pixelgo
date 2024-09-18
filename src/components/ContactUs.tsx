@@ -28,11 +28,11 @@ const ContactData = [
 function ContactUs() {
   return (
     <div
-      className="bg-black px-[20px] sm:px-0 py-[22px] lg:py-[32px]"
+      className="bg-black px-[20px] sm:px-0 py-[28px] lg:py-[48px]"
       id="contact-us"
     >
       <div className="container mx-auto">
-        <h2 className="text-[23px] text-pixelgo-text text-center">
+        <h2 className="text-[28px] xl:text-[32px] text-pixelgo-text text-center">
           Connect With Us
         </h2>
         <div className="flex flex-col-reverse lg:flex-row my-[22px] gap-[26px] items-center justify-center">

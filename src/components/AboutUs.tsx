@@ -4,7 +4,7 @@ function AboutUs() {
   return (
     <div
       id="about-us"
-      className="container mx-auto px-[20px] sm:px-0 space-y-[22px] lg:space-y-[32px] py-[28px]"
+      className="container mx-auto px-[20px] sm:px-0 space-y-[22px] lg:space-y-[32px] py-[28px] mb-[30px] xl:mb-[56px]"
     >
       <h2 className="text-center font-semibold text-pixelgo-primary-dark text-[23px] lg:text-[28px]">
         About Us
