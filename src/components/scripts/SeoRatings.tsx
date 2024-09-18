@@ -2,11 +2,7 @@
 
 import { useEffect } from "react";
 
-function SeoRatings({
-  name = "PixelGo",
-  rating = "4.8",
-  reviewCount = "3716",
-}) {
+function SeoRatings({ name = "Godoo", rating = "4.8", reviewCount = "3716" }) {
   useEffect(() => {
     const script = document.createElement("script");
     script.type = "application/ld+json";

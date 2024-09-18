@@ -2,26 +2,25 @@ import { InstagramLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 import PixelGoLogoDark from "../../public/static/images/logos/pixelgo-logo-dark-bg.webp";
-import FacebookIconSvg from "./svg/FacebookIconSvg";
 
 const SocialMediaLinks = [
   {
     icon: (
-      <InstagramLogoIcon className="text-pixelgo-brand w-[30px] h-[30px] lg:w-[45px] lg:h-[45px]" />
+      <InstagramLogoIcon className="text-pixelgo-text w-[30px] h-[30px] lg:w-[45px] lg:h-[45px] hover:scale-95 transition-all" />
     ),
     title: "Instagram",
-    link: "https://www.instagram.com/invites/contact/?igsh=1fxr37w6efjfy&utm_content=vmkvcuv",
-  },
-  {
-    icon: (
-      <FacebookIconSvg className="text-pixelgo-brand w-[30px] h-[30px] lg:w-[45px] lg:h-[45px]" />
-    ),
-    title: "Facebook",
-    link: "https://www.facebook.com/profile.php?id=61565740584919&mibextid=ZbWKwL",
+    link: "https://www.instagram.com/godoo.in?utm_source=qr&igsh=cmd0bHE1djhkYzQ0",
   },
   // {
   //   icon: (
-  //     <LinkedInLogoIcon className="text-pixelgo-brand w-[30px] h-[30px] lg:w-[45px] lg:h-[45px]" />
+  //     <FacebookIconSvg className="text-pixelgo-text w-[30px] h-[30px] lg:w-[45px] lg:h-[45px] hover:scale-95 transition-all" />
+  //   ),
+  //   title: "Facebook",
+  //   link: "https://www.facebook.com/profile.php?id=61565740584919&mibextid=ZbWKwL",
+  // },
+  // {
+  //   icon: (
+  //     <LinkedInLogoIcon className="text-pixelgo-text w-[30px] h-[30px] lg:w-[45px] lg:h-[45px] hover:scale-95 transition-all" />
   //   ),
   //   title: "LinkedIn",
   //   link: "",
@@ -36,10 +35,6 @@ const SocialMediaLinks = [
 ];
 
 const FooterLinks = [
-  {
-    title: "Support",
-    link: "/support",
-  },
   {
     title: "Privacy Policy",
     link: "/privacy-policy",

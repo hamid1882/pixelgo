@@ -13,7 +13,8 @@ const config: Config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         "pixelgo-primary": "#ffc7a8",
-        "pixelgo-brand": "#ff965c",
+        "pixelgo-brand": "#840101",
+        "pixelgo-text": "#ffffff",
         "pixelgo-primary-dark": "#4e260c",
         card: {
           DEFAULT: "hsl(var(--card))",

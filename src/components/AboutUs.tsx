@@ -10,7 +10,7 @@ function AboutUs() {
         About Us
       </h2>
       <p className="text-[12px] lg:text-[24px] font-medium">
-        At PixelGo, we are an energetic digital marketing startup, built by
+        At Godoo, we are an energetic digital marketing startup, built by
         professionals who understand the pulse of Indian businesses.
         <br />
         <br />

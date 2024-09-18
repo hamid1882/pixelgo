@@ -13,7 +13,8 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 export const metadata: Metadata = {
-  title: "PixelGo | One Stop Digital Solutions For All Your Business needs.",
+  title:
+    "Godoo | Get Results with India’s #1 Google Ads Agency for Effective Advertising",
   description:
     "Maximize ROI with targeted Google Ads services. We create optimized, relevant campaigns to boost visibility, drive quality traffic, and increase conversions.",
 };
@@ -27,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <meta
         property="og:title"
-        content="PixelGo | One Stop Digital Solutions For All Your Business needs."
+        content="Godoo | Get Results with India’s #1 Google Ads Agency for Effective Advertising"
       />
       <meta
         property="og:description"
@@ -39,7 +40,7 @@ export default function RootLayout({
       />
       <meta
         property="facebook:title"
-        content="PixelGo | One Stop Digital Solutions For All Your Business needs."
+        content="Godoo | Get Results with India’s #1 Google Ads Agency for Effective Advertising"
       />
       <meta
         property="facebook:description"
@@ -52,7 +53,7 @@ export default function RootLayout({
       <meta property="twitter:card" content="summary" />
       <meta
         property="twitter:title"
-        content="PixelGo | One Stop Digital Solutions For All Your Business needs."
+        content="Godoo | Get Results with India’s #1 Google Ads Agency for Effective Advertising"
       />
       <meta
         property="twitter:description"
@@ -62,7 +63,7 @@ export default function RootLayout({
         property="twitter:image"
         content="https://res.cloudinary.com/dufbsunt4/image/upload/v1726417797/Pixelgo/q5an9h7gximfym4uhcqc.webp"
       />
-      <link rel="alternate" href="https://pixelgo.in" hrefLang="en" />
+      <link rel="alternate" href="https://godoo.in" hrefLang="en" />
       <body className={`${poppins.variable}`}>
         <main>
           <ProductSchema />

@@ -24,7 +24,7 @@ function ServiceCard({
         <Link href="#contact-us">
           <Button
             size="lg"
-            className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 max-w-full text-black"
+            className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 max-w-full text-pixelgo-text"
           >
             Enquire Now
           </Button>

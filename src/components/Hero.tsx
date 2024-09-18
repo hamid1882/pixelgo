@@ -30,8 +30,9 @@ function Hero() {
         </div>
       </div>
       <div className="w-full text-center lg:text-left space-y-[20px] lg:space-y-[28px]">
-        <h1 className="text-[23px] lg:text-[60px] font-bold leading-[25px] lg:leading-[80px]">
-          One Stop Digital Solutions For All Your Business needs.
+        <h1 className="text-[23px] lg:text-[60px] font-bold leading-[29px] lg:leading-[80px] text-balance">
+          Get Results with India’s #1 Google Ads Agency for
+          Effective Advertising
         </h1>
         <p className="text-[12px] lg:text-[22px] font-[500] leading-[17px] lg:leading-[28px]">
           Maximize ROI with targeted Google Ads services. We create optimized,
@@ -42,7 +43,7 @@ function Hero() {
           <Link href="#contact-us">
             <Button
               size="lg"
-              className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 text-black"
+              className="bg-pixelgo-brand hover:bg-pixelgo-brand/80 text-pixelgo-text"
             >
               Contact Us
             </Button>

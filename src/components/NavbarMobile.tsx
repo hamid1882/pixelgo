@@ -42,7 +42,7 @@ function NavbarMobile() {
             alt="PixelGo-Logo"
             height={150}
             width={150}
-            className="w-fit lg:w-[250px] h-[80px] lg:h-[100px] object-contain py-[8px]"
+            className="w-fit lg:w-[250px] h-[50px] lg:h-[100px] object-contain py-[8px]"
           />
         </Link>
         {isCollapseNavbar ? (
@@ -69,7 +69,7 @@ function NavbarMobile() {
         >
           {NavLinks.map((link) => (
             <Link key={link.label} href={`#${link.url}`}>
-              <p className="text-[10px] font-semibold cursor-pointer hover:bg-pixelgo-brand transition-all px-[4px] py-[8px] rounded">
+              <p className="text-[10px] font-semibold cursor-pointer hover:bg-pixelgo-brand hover:text-pixelgo-text transition-all px-[4px] py-[8px] rounded">
                 {link.label}
               </p>
             </Link>

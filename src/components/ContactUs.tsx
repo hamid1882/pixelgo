@@ -13,9 +13,9 @@ const ContactData = [
   },
   {
     title: "Phone Number",
-    label: "+91 90080 08772",
-    value: "+919008008772",
-    link: "tel:+919008008772",
+    label: "+91 9480 622 160",
+    value: "+919480622160",
+    link: "tel:+919480622160",
   },
   {
     title: "Email Address",
@@ -32,7 +32,7 @@ function ContactUs() {
       id="contact-us"
     >
       <div className="container mx-auto">
-        <h2 className="text-[23px] text-pixelgo-brand text-center">
+        <h2 className="text-[23px] text-pixelgo-text text-center">
           Connect With Us
         </h2>
         <div className="flex flex-col-reverse lg:flex-row my-[22px] gap-[26px] items-center justify-center">
@@ -46,7 +46,7 @@ function ContactUs() {
                   {details.title}
                 </h3>
                 <Link passHref href={details.link}>
-                  <p className="text-[14px] lg:text-[20px] leading-[20px] lg:leading-[28px] cursor-pointer hover:text-pixelgo-brand w-fit">
+                  <p className="text-[14px] lg:text-[20px] leading-[20px] lg:leading-[28px] cursor-pointer hover:text-pixelgo-primary w-fit">
                     {details.label}
                   </p>
                 </Link>

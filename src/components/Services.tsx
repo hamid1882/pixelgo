@@ -51,10 +51,10 @@ function Services() {
     <div id="services" className="bg-black py-[20px]">
       <div className="px-[20px] lg:px-0 container mx-auto">
         <div className="text-center space-y-[8px]">
-          <p className="text-white text-[14px] font-bold tracking-[6px]">
+          <p className="text-pixelgo-primary text-[14px] font-bold tracking-[6px]">
             SERVICES
           </p>
-          <h2 className="text-pixelgo-brand text-[23px] lg:text-[52px] font-bold leading-[25px] lg:leading-[54px]">
+          <h2 className="text-pixelgo-text text-[23px] lg:text-[52px] font-bold leading-[25px] lg:leading-[54px]">
             Our Vison & Our Goal
           </h2>
         </div>

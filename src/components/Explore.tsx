@@ -31,7 +31,7 @@ function Explore() {
           <Button
             variant="outline"
             size="lg"
-            className="bg-transparent border-pixelgo-brand hover:bg-pixelgo-brand rounded-full lg:w-[240px] lg:h-[50px]"
+            className="bg-transparent border-pixelgo-brand hover:bg-pixelgo-brand hover:text-pixelgo-text rounded-full lg:w-[240px] lg:h-[50px]"
           >
             Explore
           </Button>
