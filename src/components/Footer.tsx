@@ -83,7 +83,7 @@ function Footer() {
         </div>
       </div>
       <p className="text-white text-center mt-[32px] text-[18px] lg:text-[22px]">
-        © 2024 PixelGo, All right reserved
+        © 2024 Godoo, All right reserved
       </p>
     </div>
   );

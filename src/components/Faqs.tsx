@@ -10,9 +10,9 @@ import SeoFaqSchema from "./scripts/SeoFaqSchema";
 const FaqsData = [
   {
     id: 1,
-    question: "What services does PixelGo offer?",
+    question: "What services does Godoo offer?",
     answer:
-      "At PixelGo, we offer a wide range of digital marketing services, including SEO, lead generation, content creation, social media marketing, Google Ads, and email marketing. We also provide UI/UX design and drag-and-drop website design to help businesses build impactful and user-friendly websites.",
+      "At Godoo, we offer a wide range of digital marketing services, including SEO, lead generation, content creation, social media marketing, Google Ads, and email marketing. We also provide UI/UX design and drag-and-drop website design to help businesses build impactful and user-friendly websites.",
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ const FaqsData = [
     id: 9,
     question: "What makes your digital marketing agency different?",
     answer:
-      "At PixelGo, we combine local expertise with innovative strategies. As a startup ourselves, we understand the challenges Indian businesses face. Our team of skilled professionals is dedicated to delivering measurable results, helping you achieve growth and long-term success.",
+      "At Godoo, we combine local expertise with innovative strategies. As a startup ourselves, we understand the challenges Indian businesses face. Our team of skilled professionals is dedicated to delivering measurable results, helping you achieve growth and long-term success.",
   },
   {
     id: 10,
