@@ -1,7 +1,7 @@
 import { InstagramLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
-import PixelGoLogoDark from "../../public/static/images/logos/godoo-bg-light.webp";
+import PixelGoLogoDark from "../../public/static/images/logos/logo-light.webp";
 
 const SocialMediaLinks = [
   {
@@ -50,13 +50,15 @@ function Footer() {
     <div className="bg-black py-[22px] lg:py-[32px]">
       <div className="container mx-auto px-[20px] lg:px-0 flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-[32px] my-[12px]">
         <div>
-          <Image
-            src={PixelGoLogoDark}
-            alt="Pixelgo-logo"
-            height={500}
-            width={500}
-            className="w-[150px] lg:w-[250px] h-[100px] lg:h-[100px] object-contain pb-[8px]"
-          />
+          <Link href="/">
+            <Image
+              src={PixelGoLogoDark}
+              alt="Pixelgo-logo"
+              height={500}
+              width={500}
+              className="w-[150px] lg:w-[250px] h-[100px] lg:h-[100px] object-contain pb-[8px]"
+            />
+          </Link>
           <div className="flex justify-center items-center gap-[20px] sm:gap-[28px] lg:gap-[34px]  my-[20px]">
             {SocialMediaLinks.map((link) => (
               <Link
