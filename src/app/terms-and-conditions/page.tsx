@@ -3,9 +3,7 @@ import React from "react";
 function Page() {
   return (
     <div className="container mx-auto px-[20px] sm:px-0 lg:mt-[16px] py-[62px] lg:py-[65px] space-y-[12px] xl:space-y-[18px]">
-      <h1 className="text-[28px] font-bold my-[8px]">
-        Terms and Conditions | Godoo
-      </h1>
+      <h1 className="text-[28px] font-bold my-[8px]">Terms and Conditions</h1>
       <div>
         <h2 style={{ fontWeight: "bold" }}>1. Introduction</h2>
         <p>

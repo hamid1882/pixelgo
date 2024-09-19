@@ -1,11 +1,11 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
-import "./globals.css";
 import ProductSchema from "@/components/scripts/ProductSchema";
 import SeoRatings from "@/components/scripts/SeoRatings";
 import { Toaster } from "@/components/ui/toaster";
-import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
+import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -27,6 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta
+        name="google-site-verification"
+        content="VS2vB1cNBW_x7hIK7LjOpdy7XBq9s-Gxw4HjtXhm_Cg"
+      />
       <meta
         property="og:title"
         content="Godoo | Get Results with India’s #1 Google Ads Agency for Effective Advertising"
