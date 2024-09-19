@@ -6,22 +6,22 @@ import Logo from "../../public/static/images/logos/logo.webp";
 import Link from "next/link";
 import { useState } from "react";
 
-const NavLinks = [
+export const NavLinks = [
   {
     label: "Home",
-    url: "top",
+    url: "/#top",
   },
   {
     label: "Services",
-    url: "services",
+    url: "/#services",
   },
   {
     label: "About Us",
-    url: "about-us",
+    url: "/#about-us",
   },
   {
     label: "Contact Us",
-    url: "contact-us",
+    url: "/#contact-us",
   },
   // {
   //   label: "Blogs",
@@ -68,7 +68,7 @@ function NavbarMobile() {
           } transition-all items-center gap-[20px] py-[6px] justify-center`}
         >
           {NavLinks.map((link) => (
-            <Link key={link.label} href={`#${link.url}`}>
+            <Link key={link.label} href={link.url}>
               <p className="text-[10px] font-semibold cursor-pointer hover:bg-pixelgo-brand hover:text-pixelgo-text transition-all px-[4px] py-[8px] rounded">
                 {link.label}
               </p>

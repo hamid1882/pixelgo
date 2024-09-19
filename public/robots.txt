@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://godoo.com
+
+# Sitemaps
+Sitemap: https://godoo.com/sitemap.xml

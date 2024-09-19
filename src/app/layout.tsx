@@ -5,6 +5,7 @@ import "./globals.css";
 import ProductSchema from "@/components/scripts/ProductSchema";
 import SeoRatings from "@/components/scripts/SeoRatings";
 import { Toaster } from "@/components/ui/toaster";
+import Footer from "@/components/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -70,6 +71,7 @@ export default function RootLayout({
           <SeoRatings />
           <Navbar />
           {children}
+          <Footer />
         </main>
         <Toaster />
       </body>
