@@ -19,7 +19,7 @@ function ProductSchema() {
         "Maximize ROI with targeted Google Ads services. We create optimized, relevant campaigns to boost visibility, drive quality traffic, and increase conversions.",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "155/1, 5th cross, near new noble school",
+        streetAddress: "Near 155th/1, 5th Cross, Near New Noble School",
         addressLocality: "Rashad Nagar, Govindapura, Nagavara",
         addressRegion: "Bengaluru",
         postalCode: "560045",

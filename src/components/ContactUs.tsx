@@ -8,7 +8,7 @@ const ContactData = [
     label:
       "41,4th Cross Road,Rashad Nagar, Govindapura, Hbr Layout, Bengaluru 560045.",
     value:
-      "41,4th Cross Road,Rashad Nagar, Govindapura, Hbr Layout, Bengaluru 560045.",
+      "Near 155th/1, 5th Cross, Near New Noble School, Rashad Nagar, Arabic College Post, Govindapura, Nagavara, Bengaluru, Karnataka 560045",
     link: "#contact-us",
   },
   {
