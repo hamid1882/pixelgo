@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import GAScript from "@/components/GAScript";
 import Navbar from "@/components/Navbar";
 import ProductSchema from "@/components/scripts/ProductSchema";
 import SeoRatings from "@/components/scripts/SeoRatings";
@@ -70,6 +71,7 @@ export default function RootLayout({
       />
       <link rel="alternate" href="https://godoo.in" hrefLang="en" />
       <body className={`${poppins.variable}`}>
+        <GAScript />
         <main>
           <ProductSchema />
           <SeoRatings />
